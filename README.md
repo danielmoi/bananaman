@@ -1,3 +1,3 @@
 # Banana Man
 
-Hurrah!
+A handy library to test assertions
