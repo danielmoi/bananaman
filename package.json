@@ -1,11 +1,11 @@
 {
   "name": "bananaman",
   "version": "1.1.0",
-  "description": "A handy and essential assertion library",
+  "description": "A handy and essential utility library",
   "main": "index.js",
   "scripts": {
     "test": "tape test/**/*.test.js",
-    "play": "node ./bin/banana play"
+    "go": "node ./bin/go"
   },
   "author": "Daniel Moi",
   "repository": {
@@ -13,11 +13,9 @@
     "url": "https://github.com/danielmoi/bananaman.git"
   },
   "license": "ISC",
-  "dependencies": {
-    "commander": "^2.9.0",
-    "read": "^1.0.7"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "read": "^1.0.7",
     "tape": "^4.6.3"
   }
 }

@@ -1,5 +1,5 @@
 function isBananaMan(guess) {
-  if (guess.toLowerCase() === 'eric') {
+  if (guess.trim().toUpperCase() === 'ERIC') {
     return true;
   }
   return false;

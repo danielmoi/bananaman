@@ -1,0 +1,21 @@
+const read = require('read');
+
+const isBananaman = require('..');
+
+function ask() {
+  read({ prompt: '>> 🍌 🍌  Well?' }, (err, input) => {
+    const isTrue = isBananaman(input);
+    const answer = input.trim().toUpperCase();
+    if (isTrue) {
+      console.log(`>> 🍌 🍌  ${answer} is Banana Man!!!  🍌 🍌`);
+    } else if (answer === '') {
+      console.log('>> ⛔ ⛔  NOT GIVING AN ANSWER will get you NOWHERE \n');
+      ask();
+    } else {
+      console.log(`>> ⛔ ⛔  ${answer} is not Banana Man \n`);
+      ask();
+    }
+  });
+}
+
+ask();
