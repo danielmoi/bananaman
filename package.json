@@ -4,9 +4,12 @@
   "description": "A handy and essential utility library",
   "main": "index.js",
   "scripts": {
-    "test": "tape test/**/*.test.js",
+    "spec": "tape ./test/**/*.test.js",
+    "test": "./node_modules/.bin/istanbul cover ./node_modules/.bin/tape ./test/**/*.test.js",
+    "coverage": "nyc yarn spec",
     "build": "./index.js",
-    "go": "node ./bin/go"
+    "go": "node ./bin/go",
+    "coveralls": "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
   },
   "author": "Daniel Moi",
   "repository": {
@@ -16,6 +19,9 @@
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
+    "coveralls": "^2.11.16",
+    "istanbul": "^0.4.5",
+    "nyc": "^10.1.2",
     "read": "^1.0.7",
     "tape": "^4.6.3"
   }
