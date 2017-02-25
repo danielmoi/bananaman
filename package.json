@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "tape test/**/*.test.js",
+    "build": "index.js",
     "go": "node ./bin/go"
   },
   "author": "Daniel Moi",
