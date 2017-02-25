@@ -3,7 +3,11 @@
 A handy and essential utility library
 
 
+[![Coverage Status](https://coveralls.io/repos/github/danielmoi/bananaman/badge.svg?branch=master)](https://coveralls.io/github/danielmoi/bananaman?branch=master)
+
+
 ## Installation
+
 With Yarn:
 ```
 yarn add bananaman
