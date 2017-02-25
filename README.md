@@ -1,11 +1,9 @@
 # Banana Man
 
-A handy and essential utility library
+A handy and ESSENTIAL utility library
 
 [![npm version](https://badge.fury.io/js/bananaman.svg)](https://badge.fury.io/js/bananaman)
-
 [![Build Status](https://travis-ci.org/danielmoi/bananaman.svg?branch=master)](https://travis-ci.org/danielmoi/bananaman)
-
 [![Coverage Status](https://coveralls.io/repos/github/danielmoi/bananaman/badge.svg?branch=master)](https://coveralls.io/github/danielmoi/bananaman?branch=master)
 
 
