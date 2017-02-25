@@ -44,4 +44,4 @@ Run the test suite (uses the wonderful [Tape](https://github.com/substack/tape) 
 yarn test
 ```
 
-![Banana Man](https://en.wikipedia.org/wiki/Bananaman#/media/File:BananaMan_Introduction_Shot.JPG)
+![Banana Man](https://upload.wikimedia.org/wikipedia/en/a/aa/BananaMan_Introduction_Shot.JPG)
